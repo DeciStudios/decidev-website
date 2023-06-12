@@ -1,0 +1,136 @@
+body {
+    background-image: url("img/core-elements/bg.jpg");
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    height: 100%;
+    
+}
+header{
+    border-radius: 50px 50px 0px 0px;
+    background: linear-gradient(90deg, rgba(52,44,65,1) 0%, rgba(41,31,62,1) 100%);
+    padding: 0px;
+
+}
+section{
+    padding:20px;
+    color: #F5DE38;
+    background: radial-gradient(rgba(52,52,54,1) 0%, rgba(43,40,46,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+footer{
+    color: #F5DE38;
+    background: linear-gradient(90deg, rgba(52,44,65,1) 0%, rgba(41,31,62,1) 100%);
+    border-radius: 0px 0px 50px 50px;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+}
+
+div{
+    background-image: url("img/hexagon-pattern-grey.png");
+    color: #F5DE38;
+    display: inline-block;
+    border-radius: 25px;
+    margin-right: 1%;
+    text-align: center;
+    padding: 0.5%;
+    width: 60px;
+    margin-bottom: 1%;
+}
+divSel{
+    background: radial-gradient(rgba(245,164,56,1) 0%, rgba(245,222,56,1) 100%);
+    color: black;
+    display: inline-block;
+    border-radius: 25px;
+    margin-right: 1%;
+    text-align: center;
+    padding: 0.5%;
+    width: 60px;
+    margin-bottom: 1%;
+    
+}
+
+sty1{
+    color: #F5DE38;
+    font-family:'Roboto', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+sty2{
+    color: #F5DE38;
+    font-family: 'Righteous', cursive;
+    position: relative;
+    top: -16.5%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+games ul{
+    margin: 19.2%;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+socials ul{
+    margin: 19.2%;;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    transition: 0.3s; 
+}
+
+img{
+    margin: auto;
+}
+
+
+a{
+    text-decoration: none;
+    transition: 0.3s; 
+}
+
+sty1 a{
+    color:#F5DE38;
+}
+sty1 a:hover{
+    color: white;
+    font-size: 50px;
+}
+
+sty2 a{
+    color:#513776;
+}
+sty2 a:hover{
+    color: #6f5c8a;
+}
+.fixed{
+    position: fixed;
+    z-index: 9999999;
+    bottom: 0;
+    left: 0;
+    border-top: 2px solid #ff5c62;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+
+
+
