@@ -13,6 +13,8 @@
         <link rel="icon" type="image/png" href="img/icon.png"/>
         <!-- CSS -->
         <link rel="stylesheet" href="styles.css">
+
+        <link rel="stylesheet" href="bg.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 
@@ -63,7 +65,7 @@
 
 
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top header">
-            <a class="navbar-brand title" href="#home"><img width="96px" src="img/logo.png"></a>
+            <a class="navbar-brand title" href="#home"><img class="logo" src="img/logo.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -90,14 +92,14 @@
             </div>
         </nav>    
         <section id="home">
-            <h1 style="font-weight: normal; font-family: 'Consolas'; margin-top: 175px;">
+            <header style="font-weight: normal; font-family: 'Consolas'; margin-top: 175px;">
                 <span style="color: #61afef;">print</span><span style="color: #ffd700;">(</span><span style="color: #98c379;">"Game and software development."</span><span style="color: #ffd700;">)</span>
-            </h1>
+            </header>
         </section>
         <section id="about">
-            <h1>About Me</h1>
+            <header>About Me</header>
             <p style=" margin-top: 10px;"> Hi, my name is Jack, also known as Deci. I am a dedicated programmer with a particular passion for game development.</p>
-            <iframe width="560" height="315" style=" margin-top: 50px;" src="https://www.youtube.com/embed/Cn92k4s3Bgk?si=_bf32YRruQ4IebfH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="embed-container" style=" margin-top: 50px;" src="https://www.youtube.com/embed/Cn92k4s3Bgk?si=_bf32YRruQ4IebfH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
             <p style=" margin-top: 50px;">
             I am a 16 year old college student currently studying software development at Cirencester College, England. I first started programming from the age of 7 with educational programming languages like Scratch and Hopscotch, working my way up to C#, Lua, Python, C, etc. I have a 
@@ -106,13 +108,14 @@
             </p>
         </section>
         <section id="projects">
-            <h1>Projects</h1>
+            <header>Projects</header>
             <p> Here are some games I have worked/am working on.</p>
-            <iframe frameborder="0" src="https://itch.io/embed/940423" width="552" height="167"><a href="https://decidev.itch.io/escape-the-pyramid">Escape the Pyramid! by Deci</a></iframe>
+            <iframe frameborder="0" src="https://itch.io/embed/940423" class="embed-container itch-container"><a href="https://decidev.itch.io/escape-the-pyramid">Escape the Pyramid! by Deci</a></iframe>
 
                 <p> Here are a few scripts I have released for FiveM servers too!</p>
-                <a href="https://deci-scripting.tebex.io/package/5337512" target="_blank"><iframe width="560" height="315" src="https://www.youtube.com/embed/otf2Fcyd9MY?si=BQ4s4yRIP9tFaTy5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a>
-                <a href="https://deci-scripting.tebex.io/package/5337519" target="_blank"><iframe width="560" height="315" src="https://www.youtube.com/embed/YJkbJr88j6c?si=ktX0tM0y4mF36pdR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a>
+                <a href="https://deci-scripting.tebex.io/package/5337512" target="_blank"><iframe class="embed-container" src="https://www.youtube.com/embed/otf2Fcyd9MY?si=BQ4s4yRIP9tFaTy5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a>
+                <br>
+                <a href="https://deci-scripting.tebex.io/package/5337519" target="_blank"><iframe class="embed-container" src="https://www.youtube.com/embed/YJkbJr88j6c?si=ktX0tM0y4mF36pdR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></a>
                 
 
                 <br>
@@ -120,28 +123,28 @@
                 <br>
         </section>
         <section id="contact">
-            <h1>Where to find me</h1> 
+            <header>Where to find me</header> 
             
             <ul>
-            <a class="social-link" href="https://www.youtube.com/channel/UCWqbJd_XNsoyXiLvW3igl-g" target="_blank"><iconify-icon inline  icon="jam:youtube"></iconify-icon> YouTube</a>
+            <li><a class="social-link" href="https://www.youtube.com/channel/UCWqbJd_XNsoyXiLvW3igl-g" target="_blank"><iconify-icon inline  icon="jam:youtube"></iconify-icon> YouTube</a></li>
             
-            <a class="social-link" href="https://www.twitch.tv/decidev" target="_blank"><iconify-icon inline  icon="jam:twitch"></iconify-icon> Twitch</a>
+            <li><a class="social-link" href="https://www.twitch.tv/decidev" target="_blank"><iconify-icon inline  icon="jam:twitch"></iconify-icon> Twitch</a></li>
             
-            <a class="social-link" href="https://twitter.com/deci_studios" target="_blank"><iconify-icon inline  icon="jam:twitter"></iconify-icon> Twitter</a>
+            <li><a class="social-link" href="https://twitter.com/deci_studios" target="_blank"><iconify-icon inline  icon="jam:twitter"></iconify-icon> Twitter</a></li>
             
-            <a class="social-link" href="https://www.instagram.com/jackmortimer.dev/" target="_blank"><iconify-icon inline  icon="jam:instagram"></iconify-icon> Instagram</a>
+            <li><a class="social-link" href="https://www.instagram.com/jackmortimer.dev/" target="_blank"><iconify-icon inline  icon="jam:instagram"></iconify-icon> Instagram</a></li>
             
-            <a class="social-link" href="https://www.reddit.com/user/stingzgaming" target="_blank"><iconify-icon inline  icon="basil:reddit-solid"></iconify-icon> Reddit</a>
+            <li><a class="social-link" href="https://www.reddit.com/user/stingzgaming" target="_blank"><iconify-icon inline  icon="basil:reddit-solid"></iconify-icon> Reddit</a></li>
             
-            <a class="social-link" href="https://discord.gg/dJHupP4" target="_blank"><iconify-icon inline  icon="jam:discord"></iconify-icon> Discord</a>
+            <li><a class="social-link" href="https://discord.gg/dJHupP4" target="_blank"><iconify-icon inline  icon="jam:discord"></iconify-icon> Discord</a></li>
             </ul>
             <h2>Freelance Contacts</h2>
             <ul>
-            <a class="social-link" href="https://www.fiverr.com/st1ngzgam1ng" target="_blank"><iconify-icon inline  icon="jam:fiverr"></iconify-icon> Fiverr</a>
+            <li><a class="social-link" href="https://www.fiverr.com/st1ngzgam1ng" target="_blank"><iconify-icon inline  icon="jam:fiverr"></iconify-icon> Fiverr</a></li>
             
-            <a class="social-link" href="https://www.freelancer.com/u/DeciStudios" target="_blank"><iconify-icon inline  icon="simple-icons:freelancer"></iconify-icon> Freelancer</a>
+            <li><a class="social-link" href="https://www.freelancer.com/u/DeciStudios" target="_blank"><iconify-icon inline  icon="simple-icons:freelancer"></iconify-icon> Freelancer</a></li>
             
-            <a class="social-link" href="https://www.linkedin.com/in/jack-mortimer-279117235/" target="_blank"><iconify-icon inline  icon="jam:linkedin"></iconify-icon> LinkedIn</a>
+            <li><a class="social-link" href="https://www.linkedin.com/in/jack-mortimer-279117235/" target="_blank"><iconify-icon inline  icon="jam:linkedin"></iconify-icon> LinkedIn</a></li>
             </ul>
             </section>
         <footer>
