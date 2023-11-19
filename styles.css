@@ -44,6 +44,9 @@ body {
 #projects{
     margin-top: 600px;
 }
+#contact{
+    margin-top: 500px;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -58,6 +61,7 @@ header{
 }
 #home header{
     font-size: 43px;
+    margin-top: 175px;
 }
 section{
     
@@ -103,7 +107,27 @@ li{
 
 @media screen and (max-width: 1140px) {
     #home header{
-        font-size: 28px;
+        font-size: 40px;
+        margin-top: 1000px;
+    }
+    #about{
+        margin-top: 1100px;
+    }
+    #projects{
+        margin-top: 1000px;
+    }
+    #contact{
+        margin-top: 1000px;
+    }
+    footer{
+        margin-top: 1000px;
+    }
+    section{
+        font-size: 35px;
+    }
+    .store{
+        font-size: 30px;
+        padding: 0px 10px;
     }
 
     li{
