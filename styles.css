@@ -29,9 +29,25 @@ body {
     display: inline-block; /* Ensures that the scaling won't affect neighboring elements */
     transition: transform 0.3s ease; /* Adds a smooth transition effect */
 }
-.store:hover{
+.drive:hover{
     text-decoration: none;
     color: white;
+    transform: scale(1.2);
+}
+.drive{
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+    font-size: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 4px 10px rgba(0,0,0,0.12);
+    border-radius: 5px;
+    display: inline-block; /* Ensures that the scaling won't affect neighboring elements */
+    transition: transform 0.3s ease; /* Adds a smooth transition effect */
+}
+.store:hover{
+    text-decoration: none;
+    color: #F8FAFD;
     transform: scale(1.2);
 }
 .embed-container {
